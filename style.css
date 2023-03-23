@@ -38,9 +38,9 @@
 /* General styles */
 
 /* endable this to add smooth scrolling */
-/* html {
+ html {
     scroll-behavior: smooth;
-} */
+}
 
 
 body {
@@ -480,7 +480,7 @@ header {
 .blog--section{
  border-left: var(--clr-accent) 5px
 }
-.affiliate--section{
+/*.affiliate--section{
     font-size:0.8em;
     }
     .affiliate--section p {
@@ -497,10 +497,14 @@ header {
     .affiliate--section p.collapsed::after {
     content: " ...";
     opacity: 0.5;
-    }
+    }*/
+    .text {
+        overflow-y: scroll;
+        max-height: 200px; /* set the maximum height to whatever value works best for your layout */
+      }
 
 img{ 
-    height:100%;
-    width:100%;
+   /* height:100%;
+    width:100%;*/
     padding:0.1em
 }

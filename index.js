@@ -13,3 +13,8 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+// zobrazit fotky affiliate produktů
+// zmenšit text a upravit v affiliate sekci
+// přidat blog
+//zjisti co s vat
