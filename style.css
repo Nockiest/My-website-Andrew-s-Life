@@ -508,3 +508,24 @@ img{
     width:100%;*/
     padding:0.1em
 }
+
+h2{
+    border-bottom:6px solid #111
+}
+
+.promo-text{
+
+border-left:#33f86b 10px solid;
+border-right:#111 5px solid;
+display: flex;
+align-items: left;
+justify-content: left;
+text-align: left;
+padding: 10px;
+margin: 10px 0;
+line-height: 1.5
+}
+
+#namecheap-promo{
+    max-width: 20em
+}
